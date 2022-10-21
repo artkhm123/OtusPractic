@@ -6,6 +6,7 @@ from src.Square import Square
 from src.Triangle import Triangle
 
 def test_add_area_test():
+    '''проверка функции сложения площадей двух экземпляров'''
     square = Square(5)
     triangle = Triangle(3,4,5)
     rectangle = Rectangle(3,5)
