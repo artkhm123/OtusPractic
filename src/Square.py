@@ -5,6 +5,7 @@ from src.Rectangle import Rectangle
 
 class Square(Rectangle):
     def __init__(self,A:int):
+        '''Инициализация квадрата по стороне'''
         super().__init__(A,A)
         if not (isinstance(A, int) or isinstance(A,float)):
             raise ValueError

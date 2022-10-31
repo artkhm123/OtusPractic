@@ -7,6 +7,7 @@ from src.Figure import Figure
 
 class Circle(Figure):
     def __init__(self, R: int):
+        '''Инициализация круга по радиусу'''
         super().__init__(type='Circle')
         if not (isinstance(R, int) or isinstance(R,float)):
             raise ValueError
@@ -14,11 +15,12 @@ class Circle(Figure):
               raise ValueError
         self.r = R
 
-
     @property
     def perimeter(self):
+        '''Подсчет периметра круга. Принимает радиус и возвращает значение периметра 2*pi*r'''
         return round((2 * math.pi * self.r),2)
 
     @property
     def area(self):
+        '''Подсчет площади круга. Принимает радиус и возвращает значение площади pi*r*r'''
         return round((math.pi * self.r ** 2),2)
