@@ -1,7 +1,6 @@
 import pytest
 from src.Triangle import Triangle
 
-
 def test_triangle_area_int_values():
     '''проверка вычисления площади треугольника по int значениям сторон'''
     triangle=Triangle(13,14,15)
@@ -37,6 +36,7 @@ def test_triangle_creation_str_values():
         должно выкинуть исключение ValueError'''
     with pytest.raises(ValueError):
         Triangle(13,'str',15)
+
 def test_triangle_creation_math_existance_negativ_AplusC_is_less_thanB():
     '''проверка создания экземпляра треугольника с значением сторон A+C<B.
         должно выкинуть исключение ValueError'''
