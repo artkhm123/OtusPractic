@@ -1,4 +1,4 @@
-from src.Figure import Figure
+from src.hw_figures.Figure import Figure
 """
 Класс для инициализации прямоугольника по двум сторонам,
 подсчета его площади и периметра 

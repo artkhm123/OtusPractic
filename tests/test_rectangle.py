@@ -1,5 +1,5 @@
 import pytest
-from src.Rectangle import Rectangle
+from src.hw_figures.Rectangle import Rectangle
 
 
 @pytest.mark.parametrize("value1,value2",[(1.2,3.9999), (0.07,100.99)])

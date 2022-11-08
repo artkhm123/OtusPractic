@@ -1,5 +1,5 @@
 import pytest
-from src.Circle import Circle
+from src.hw_figures.Circle import Circle
 
 @pytest.mark.parametrize("value",[1.0,10.999])
 def test_circle_creation_float_values(value):

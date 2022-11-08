@@ -1,5 +1,5 @@
 import pytest
-from src.Square import Square
+from src.hw_figures.Square import Square
 
 
 @pytest.mark.parametrize("value",[1.0,10.999])
