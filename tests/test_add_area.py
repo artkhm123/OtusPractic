@@ -1,9 +1,7 @@
-import pytest
-
-from src.Circle import Circle
-from src.Rectangle import Rectangle
-from src.Square import Square
-from src.Triangle import Triangle
+from src.hw_figures.Circle import Circle
+from src.hw_figures.Rectangle import Rectangle
+from src.hw_figures.Square import Square
+from src.hw_figures.Triangle import Triangle
 
 def test_add_area_test():
     '''проверка функции сложения площадей двух экземпляров'''

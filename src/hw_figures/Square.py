@@ -1,4 +1,4 @@
-from src.Rectangle import Rectangle
+from src.hw_figures.Rectangle import Rectangle
 """
 Класс для инициализации квадрата по длинне стороны,
 """

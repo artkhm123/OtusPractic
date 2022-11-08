@@ -1,5 +1,5 @@
 import math
-from src.Figure import Figure
+from src.hw_figures.Figure import Figure
 """
 Класс для инициализации круга по по длинне радиуса,
 подсчета его площади и периметра 

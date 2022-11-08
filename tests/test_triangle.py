@@ -1,5 +1,5 @@
 import pytest
-from src.Triangle import Triangle
+from src.hw_figures.Triangle import Triangle
 
 def test_triangle_area_int_values():
     '''проверка вычисления площади треугольника по int значениям сторон'''
